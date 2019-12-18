@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+.banner{
+    overflow: hidden;
+    
+}
+
+.vid-con{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(144, 123, 83, 0.5);
+    height: 600px;
+    width: 100%;
+/*
+    display: flex;
+    justify-content: center;
+*/
+}
+.vid-overlay img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
